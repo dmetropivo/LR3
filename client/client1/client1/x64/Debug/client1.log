@@ -1,0 +1,4 @@
+﻿  client1.cpp
+D:\KPI3Semestr\Winapi\LR3\client\client1\client1\client1.cpp(94,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\KPI3Semestr\Winapi\LR3\client\client1\client1\client1.cpp(143,28): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  client1.vcxproj -> D:\KPI3Semestr\Winapi\LR3\client\client1\x64\Debug\client1.exe
