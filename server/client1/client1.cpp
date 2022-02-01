@@ -58,7 +58,7 @@ int main()
 		res = getaddrinfo("Coffee\0", DEFAULT_PORT, &hints, &result);
 		if (res != 0)
 			return 0;
-		cout << "Waiting for server to the connection...\n";
+		cout << "Waiting for server to the connection....\n";
 		for (ptr = result; ptr != NULL; ptr = ptr->ai_next)
 		{
 			sock = socket(AF_UNSPEC, SOCK_STREAM, IPPROTO_TCP);
